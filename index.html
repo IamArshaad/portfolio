@@ -20,17 +20,17 @@
 <body class="bg-[#f9f9f6] text-gray-800">
 
   <!-- Responsive Navbar -->
-<nav class="fixed w-full z-50 bg-[#0a1f2c] text-gray-100">
+<nav class="fixed top-0 w-full z-50 bg-[#0a1f2c] text-gray-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       <div class="flex-shrink-0 brand text-2xl font-bold text-[#14b8a6]">
         Arshad Mk
       </div>
       <div class="hidden md:flex space-x-6 text-[#14b8a6] font-semibold">
-        <a href="#about" class="hover:text-teal-400">About</a>
-        <a href="#projects" class="hover:text-teal-400">Projects</a>
-        <a href="resume.html" class="hover:text-teal-400">Resume</a>
-        <a href="#contact" class="hover:text-teal-400">Contact</a>
+        <a href="#about" class="transition duration-300 transform hover:scale-110 hover:text-gray-200">About</a>
+        <a href="#projects" class="transition duration-300 transform hover:scale-110 hover:text-gray-200">Projects</a>
+        <a href="resume.html" class="transition duration-300 transform hover:scale-110 hover:text-gray-200">Resume</a>
+        <a href="#contact" class="transition duration-300 transform hover:scale-110 hover:text-gray-200">Contact</a>
       </div>
       <!-- Mobile menu button -->
       <div class="md:hidden flex items-center">
@@ -45,10 +45,10 @@
   </div>
   <!-- Mobile menu links -->
   <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2 bg-[#0a1f2c] text-[#14b8a6] font-semibold">
-    <a href="#about" class="block hover:text-teal-400">About</a>
-    <a href="#projects" class="block hover:text-teal-400">Projects</a>
-    <a href="resume.html" class="block hover:text-teal-400">Resume</a>
-    <a href="#contact" class="block hover:text-teal-400">Contact</a>
+    <a href="#about" class="block transition duration-300 transform hover:scale-110 hover:text-gray-200">About</a>
+    <a href="#projects" class="block transition duration-300 transform hover:scale-110 hover:text-gray-200">Projects</a>
+    <a href="resume.html" class="block transition duration-300 transform hover:scale-110 hover:text-gray-200">Resume</a>
+    <a href="#contact" class="block transition duration-300 transform hover:scale-110 hover:text-gray-200">Contact</a>
   </div>
 </nav>
 
@@ -64,32 +64,36 @@
 
 
   <!-- Hero Section -->
-  <section id="home" class="h-screen flex flex-col justify-center items-center text-center relative bg-[#0a1f2c] overflow-hidden text-gray-100 px-4">
-    <div id="particles-js" class="absolute inset-0"></div>
-    <div class="relative z-10 space-y-4 max-w-2xl mx-auto">
-      <h1 class="text-4xl md:text-5xl font-bold">Hi, I'm Arshad</h1>
-      <p class="text-lg md:text-xl text-gray-300">Data Analyst & Aspiring Data Engineer</p>
-      <div class="flex flex-wrap justify-center gap-4 mt-6 text-[#14b8a6]">
-        <a href="https://github.com/IamArshaad" aria-label="GitHub" class="hover:text-teal-400">
-          <img src="assets/icons/github.svg" alt="GitHub" class="w-8 h-8" />
-        </a>
-        <a href="https://www.linkedin.com/in/arshad-mk-571761191/" aria-label="LinkedIn" class="hover:text-teal-400">
-          <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="w-8 h-8" />
-        </a>
-        <a href="https://medium.com/@Iamarshad" aria-label="Medium" class="hover:text-teal-400">
-          <img src="assets/icons/medium.svg" alt="Medium" class="w-8 h-8" />
-        </a>
-        <a href="https://www.hackerrank.com/profile/arshadmkkvr" aria-label="Hackerrank" class="hover:text-teal-400">
-          <img src="assets/icons/hackerrank.svg" alt="Hackerrank" class="w-8 h-8" />
-        </a>
-      </div>
+<section id="home" class="h-screen flex flex-col justify-center items-center text-center relative bg-[#0a1f2c] overflow-hidden text-gray-100 px-4">
+  <div id="particles-js" class="absolute inset-0"></div>
+  <div class="relative z-10 space-y-4 max-w-2xl mx-auto">
+    <h1 class="text-4xl md:text-5xl font-bold">Hi, I'm Arshad</h1>
+    <p class="text-lg md:text-xl text-gray-300">Data Analyst & Aspiring Data Engineer</p>
+    <div class="flex flex-wrap justify-center gap-4 mt-6 text-[#14b8a6]">
+      <a href="https://github.com/IamArshaad" aria-label="GitHub"
+         class="transition duration-300 hover:scale-110 hover:brightness-90">
+        <img src="assets/icons/github.svg" alt="GitHub" class="w-8 h-8" />
+      </a>
+      <a href="https://www.linkedin.com/in/arshad-mk-571761191/" aria-label="LinkedIn"
+         class="transition duration-300 hover:scale-110 hover:brightness-90">
+        <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="w-8 h-8" />
+      </a>
+      <a href="https://medium.com/@Iamarshad" aria-label="Medium"
+         class="transition duration-300 hover:scale-110 hover:brightness-90">
+        <img src="assets/icons/medium.svg" alt="Medium" class="w-8 h-8" />
+      </a>
+      <a href="https://www.hackerrank.com/profile/arshadmkkvr" aria-label="Hackerrank"
+         class="transition duration-300 hover:scale-110 hover:brightness-90">
+        <img src="assets/icons/hackerrank.svg" alt="Hackerrank" class="w-8 h-8" />
+      </a>
     </div>
-    <a href="#about" class="absolute bottom-8 text-teal-400 bounce">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-      </svg>
-    </a>
-  </section>
+  </div>
+  <a href="#about" class="absolute bottom-8 text-teal-400 bounce">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </a>
+</section>
 
   <!-- About -->
   <section id="about" class="py-20 px-4 md:px-6 max-w-4xl mx-auto text-center text-gray-800">
@@ -135,9 +139,9 @@
       <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">S3</span>
     </div>
 
-    <a href="resume.html" class="inline-block border-2 border-[#14b8a6] text-[#14b8a6] px-6 py-3 rounded-full hover:bg-[#14b8a6] hover:text-white transition">
-      View Resume
-    </a>
+    <a href="resume.html" class="inline-block border-2 border-[#14b8a6] text-[#14b8a6] px-6 py-3 rounded-full hover:bg-[#14b8a6] hover:text-white transition transform hover:scale-110 duration-300">
+  View Resume
+</a>
   </section>
 
   <!-- Projects -->
@@ -172,13 +176,15 @@
   </div>
 
   <div class="mt-10 text-center">
-    <a href="https://github.com/IamArshaad?tab=repositories" class="inline-block border-2 border-[#14b8a6] text-[#14b8a6] px-6 py-3 rounded-full hover:bg-[#14b8a6] hover:text-white transition">
-      View All Projects on GitHub →
-    </a>
+    <a href="https://github.com/IamArshaad?tab=repositories"
+   class="inline-block border-2 border-[#14b8a6] text-[#14b8a6] px-6 py-3 rounded-full 
+          hover:bg-[#14b8a6] hover:text-white transition transform hover:scale-110 duration-300">
+  View All Projects on GitHub →
+</a>
+
 
   </div>
 </section>
-
 
 
 
@@ -192,22 +198,43 @@
     <h2 class="text-3xl font-bold mb-6 text-[#14b8a6]">My Writings</h2>
 <div class="h-0.5 w-32 bg-[#14b8a6] mx-auto -mt-2 mb-4 rounded"></div>
     <p class="text-base md:text-lg mb-8">I share thoughts on data, technology, and growth on Medium.</p>
-    <a href="https://medium.com/@Iamarshad" class="inline-block border-2 border-[#14b8a6] text-[#14b8a6] px-6 py-3 rounded-full hover:bg-[#14b8a6] hover:text-white transition">
-      Read on Medium →
-    </a>
+    <a href="https://medium.com/@Iamarshad"
+   class="inline-block border-2 border-[#14b8a6] text-[#14b8a6] px-6 py-3 rounded-full 
+          hover:bg-[#14b8a6] hover:text-white transition transform hover:scale-110 duration-300">
+  Read on Medium →
+</a>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="py-16 px-4 text-center text-gray-800">
-    <h2 class="text-3xl font-bold mb-6 text-[#14b8a6]">Get in Touch</h2>
-<div class="h-0.5 w-32 bg-[#14b8a6] mx-auto -mt-2 mb-4 rounded"></div>
-    <p class="text-base md:text-lg mb-8">Feel free to connect with me on any platform below!</p>
-    <div class="flex flex-wrap justify-center gap-6 text-[#14b8a6] mb-8">
-      <a href="https://github.com/IamArshaad" aria-label="GitHub"><img src="assets/icons/github.svg" alt="GitHub" class="w-8 h-8" /></a>
-      <a href="https://linkedin.com/in/arshad-mk-571761191" aria-label="LinkedIn"><img src="assets/icons/linkedin.svg" alt="LinkedIn" class="w-8 h-8" /></a>
-      <a href="https://hackerrank.com/profile/arshadmkkvr" aria-label="Hackerrank"><img src="assets/icons/hackerrank.svg" alt="Hackerrank" class="w-8 h-8" /></a>
-      <a href="https://medium.com/@Iamarshad" aria-label="Medium"><img src="assets/icons/medium.svg" alt="Medium" class="w-8 h-8" /></a>
-      <a href="https://instagram.com/iam__arshaad" aria-label="Instagram"><img src="assets/icons/instagram.svg" alt="Instagram" class="w-8 h-8" /></a>
+<section id="contact" class="py-16 px-4 text-center text-gray-800">
+  <h2 class="text-3xl font-bold mb-6 text-[#14b8a6]">Get in Touch</h2>
+  <div class="h-0.5 w-32 bg-[#14b8a6] mx-auto -mt-2 mb-4 rounded"></div>
+  <p class="text-base md:text-lg mb-8">Feel free to connect with me on any platform below!</p>
+
+  <div class="flex flex-wrap justify-center gap-6 text-[#14b8a6] mb-8">
+    <a href="https://github.com/IamArshaad" aria-label="GitHub"
+       class="transition duration-300 hover:scale-110 hover:brightness-125">
+      <img src="assets/icons/github.svg" alt="GitHub" class="w-8 h-8" />
+    </a>
+    <a href="https://linkedin.com/in/arshad-mk-571761191" aria-label="LinkedIn"
+       class="transition duration-300 hover:scale-110 hover:brightness-125">
+      <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="w-8 h-8" />
+    </a>
+    <a href="https://hackerrank.com/profile/arshadmkkvr" aria-label="Hackerrank"
+       class="transition duration-300 hover:scale-110 hover:brightness-125">
+      <img src="assets/icons/hackerrank.svg" alt="Hackerrank" class="w-8 h-8" />
+    </a>
+    <a href="https://medium.com/@Iamarshad" aria-label="Medium"
+       class="transition duration-300 hover:scale-110 hover:brightness-125">
+      <img src="assets/icons/medium.svg" alt="Medium" class="w-8 h-8" />
+    </a>
+    <a href="https://instagram.com/iam__arshaad" aria-label="Instagram"
+       class="transition duration-300 hover:scale-110 hover:brightness-125">
+      <img src="assets/icons/instagram.svg" alt="Instagram" class="w-8 h-8" />
+    </a>
+  </div>
+
+
     </div>
     <div class="flex flex-wrap justify-center gap-8 text-[#14b8a6]">
       <a href="mailto:arshadmkkvr@gmail.com" class="flex items-center gap-2 hover:text-teal-400">
